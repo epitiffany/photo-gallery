@@ -1,0 +1,34 @@
+.pic{
+  border-radius:30px;
+}
+h1{
+  font-family:'Satisfy',cursive;
+  text-align:center;
+  font-size:100px;
+  color:white;
+  border:4px solid white;
+}
+body{
+  background-image:url(images/nature.jpg);
+  height:auto;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+section{
+  text-align:center;
+
+}
+
+
+
+@media screen and (max-width:900px){
+section{
+  margin:10px;
+  display:flex;
+  flex-wrap:wrap;
+      }
+.pic{
+  width:100%;
+}
+}
